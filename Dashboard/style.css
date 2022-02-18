@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+}
+
+.banner {
+    background-image: url('/images/banner-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 2;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #CCCCCC;
+}
