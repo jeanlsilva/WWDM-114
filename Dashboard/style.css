@@ -19,3 +19,9 @@ section {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     column-gap: 2;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #CCCCCC;
+}
