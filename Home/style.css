@@ -71,6 +71,7 @@ h1 {
     color: rgba(255,255,255,.5);
     font-weight: bold;
     margin-bottom: 12px;
+    background-color: #FF0000;
 }
 
 .description {
